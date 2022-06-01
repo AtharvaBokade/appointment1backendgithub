@@ -8,7 +8,7 @@ const dataModel = require("./models/UserData");
 const adjustschema = require("./models/Adjust");
 const dotenv=require('dotenv');
 dotenv.config();
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 6000
 // const infoModel = require("./models/info")
 
 mongoose.connect("mongodb+srv://atharva1bokade:456abc123@information.hwmdy.mongodb.net/information?retryWrites=true&w=majority",
