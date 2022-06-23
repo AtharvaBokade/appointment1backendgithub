@@ -11,7 +11,7 @@ dotenv.config();
 const port = process.env.PORT || 6000
 // const infoModel = require("./models/info")
 
-mongoose.connect("mongodb+srv://atharva1bokade:456abc123@information.hwmdy.mongodb.net/information?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://atharvacodenerd:codenerds123@cluster0.lbbnk01.mongodb.net/?retryWrites=true&w=majority",
  {
     useNewUrlParser: true,
 });
